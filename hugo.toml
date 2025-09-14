@@ -1,0 +1,23 @@
+# hugo.toml
+
+baseURL = "https://rahulg.space/"
+languageCode = "en-us"
+title = "Rahul Gupta"
+theme = "hugo-coder"
+
+[params]
+  author = "Rahul Gupta"
+  info = "Tech Enthusiast"
+  description = "Rahul Gupta"
+  avatarURL = "/images/avatar.jpg" # Optional: add an image to /static/images/
+  since = 2025
+
+# --- Dark Mode Settings ---
+  colorscheme = "auto"
+  hideColorSchemeToggle = false
+
+# We only need the home page
+[outputs]
+  home = [ "HTML" ]
+  page = [ "HTML" ]
+  section = [ "HTML" ]
