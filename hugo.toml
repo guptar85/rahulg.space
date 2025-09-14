@@ -3,7 +3,7 @@
 baseURL = "https://rahulg.space/"
 languageCode = "en-us"
 title = "Rahul Gupta"
-theme = "github.com/luizdepra/hugo-coder"
+theme = "hugo-coder"
 
 [params]
   author = "Rahul Gupta"
