@@ -5,6 +5,10 @@ languageCode = "en-us"
 title = "Rahul Gupta"
 theme = ["github.com/luizdepra/hugo-coder"]
 
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+
 [params]
   author = "Rahul Gupta"
   info = "Tech Enthusiast"
@@ -15,6 +19,9 @@ theme = ["github.com/luizdepra/hugo-coder"]
 # --- Dark Mode Settings ---
   colorscheme = "auto"
   hideColorSchemeToggle = false
+
+# Disable taxonomies you don’t use (removes warnings about missing layouts)
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # We only need the home page
 [outputs]
